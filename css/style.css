@@ -68,6 +68,7 @@
     padding-left: 30px;
     outline: 1px solid; 
     outline-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .agecrm_header-mobile__search_search {
     background-image: url("../images/search.svg");
@@ -90,7 +91,7 @@
     gap: 15px;
     padding-left: 0;
     margin: 0;
- 
+    overflow: auto;
 }
 
 .pagecrm_bread-lnk {
@@ -120,5 +121,95 @@
 
 
 .pagecrm_bread-item {
+    flex-shrink: 0;
+}
+
+
+
+/* -----------------   slide ------------- */
+.pagecrm_slide {
+    
+    background-image: url("../images/crm_lines.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.pagecrm_slide-title {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.pagecrm_slide-wrap {
+    padding: 34px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: -38px;
+}
+
+
+.pagecrm_slide-img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.pagecrm_slide-button {
+    padding: 10px 40px;
+    background-color:     rgba(177, 149, 255, 0.5);   
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-color: aqua;
+box-shadow: 0px 0px 10px 0px rgba(215, 149, 255, 1);
+
+}
+
+.pagecrm_slide-right-area {
+    width: 48px;
+    height: 94px;
+    top: 220px;
+    left: 312px;
+   position: relative;
+    border-radius: 15px 0px 0px 15px;
+    background: rgba(29, 1, 65, 0.3);
+    top: 103px;   
+    left: calc(100% - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.pagecrm_slide-right-top {
    
 }
+.pagecrm_slide-right-bottom {
+}
+
+.pagecrm_slide-right__img {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+
+}
+
+.pagecrm_slide-right__button {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
