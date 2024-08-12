@@ -1,0 +1,124 @@
+
+:root {
+
+}
+
+
+
+.pagecrm_body {
+    background-image: url("../images/mobile_bg.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pagecrm_header {
+    padding: 16px 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagecrm_header-top {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.pagecrm_header-top__logo {
+
+}
+.pagecrm_header-top__phone {
+    color: #FFFFFF;    
+}
+
+.pagecrm_header-mobile {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 17px;
+}
+
+.agecrm_header-mobile__humburger {
+    background-image: url("../images/humburger.svg");
+    background-size: contain;
+    height: auto;
+    width: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.agecrm_header-mobile__search {
+    flex-grow: 1;
+    width: 100%;
+    height: 25px;
+    position: relative;
+    
+}
+.agecrm_header-mobile__search_input {
+    width: calc(100% - 30px);
+    background: linear-gradient(180deg, rgba(46, 51, 90, 0.3) 0%, rgba(28, 27, 51, 0.3) 100%);
+    padding: 0;
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+    padding-left: 30px;
+    outline: 1px solid; 
+    outline-color: #FFFFFF;
+}
+.agecrm_header-mobile__search_search {
+    background-image: url("../images/search.svg");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -21px;
+    left: 10px;
+}
+.pagecrm_bread {
+    padding: 12px 8px;
+}
+
+.pagecrm_bread-items {
+    list-style-type:none;
+    position: relative;
+    display: flex;
+    gap: 15px;
+    padding-left: 0;
+    margin: 0;
+ 
+}
+
+.pagecrm_bread-lnk {
+    display: block;
+    text-decoration: none;
+    color: rgba(233, 222, 255, 1);
+    font-size: 12px;
+   
+}
+
+.pagecrm_bread-item {
+    display: flex;
+}
+
+.pagecrm_bread-item::before {
+ content: url("../images/arrow_to_right.svg");
+ width: 5px;
+ height: 8px;
+ position: relative;
+ left: -6px;
+ top: -2px;
+}
+
+.pagecrm_bread-item_first::before {
+    content: none;  
+}
+
+
+.pagecrm_bread-item {
+   
+}
