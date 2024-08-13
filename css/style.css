@@ -1,7 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+
 :root {
 
 }
+
+
 
 
 p, h1, h2, h3, h4, body, ul, li {
@@ -22,7 +28,9 @@ ul, li {
     background-image: url("../images/mobile_bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Play", sans-serif;
     font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -285,11 +293,9 @@ text-align: center;
     max-width: 100%;
     border: 1px solid;
     border-radius: 10px;
-    border-color: aqua;
+    border-color: #9400FF;
     box-shadow: 0px 0px 20px 0px rgba(215, 149, 255, 1);
-    box-shadow: 0px 0px 4px 0px rgba(215, 149, 255, 1);
     min-height: 190px;
-
 }
 
 .pagecrm_block-partner-left {
@@ -312,8 +318,7 @@ text-align: center;
     gap: 10px;
     
 }
-.pagecrm_bisness-content {
-}
+
 .pagecrm_block-partner-logo {
     display: flex;
     justify-content: center;
@@ -336,9 +341,8 @@ text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
-    text-align: left;
-    
-     color: #FFFFFF;
+    text-align: left;    
+     color: #E9C6FF;
 }
 .pagecrm_block-partner-logo__img {
 }
@@ -350,11 +354,11 @@ text-align: center;
 }
 
 .pagecrm_block-partner__list {
-font-size: 14px;
-font-weight: 400;
-line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
     text-align: left;
-    color:  #B195FF;
+    color: #FFFFFF;
     display: flex;
     gap: 6px;
 }
@@ -363,4 +367,38 @@ line-height: 14px;
     content: url("../images/check_circle.svg");
     width: 20px;
     height: 20px;
+}
+
+
+
+/* ---------- общие элементы -------------- */
+.main__button {
+
+
+}
+
+/* ---------------------------------------- */
+
+.pagecrm_block-form {
+padding: 44px 16px;
+}
+
+.pagecrm_block-form-title {
+
+}
+
+.pagecrm_block-form-title__text {
+
+}
+
+.pagecrm_block-form-title__subtext {
+
+}
+
+.pagecrm_block-form__input {
+
+}
+
+.pagecrm_block-form__button {
+
 }
