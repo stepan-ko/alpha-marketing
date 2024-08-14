@@ -144,10 +144,14 @@
                 <h2 class="pagecrm_block-form-title__text">Оставить заявку</h2>
                 <p class="pagecrm_block-form-title__subtext">Выберите систему для вашего бизнеса,  и мы свяжемся с Вами в течение 20 минут</p>
             </div>
-            <input type="text" class="pagecrm_block-form__input">
-            <input type="text" class="pagecrm_block-form__input">
-            <input type="text" class="pagecrm_block-form__input">
-            <input type="text" class="pagecrm_block-form__input">
+            <input name="name" type="text" class="pagecrm_block-form__input" placeholder="ФИО" >
+            <input name="phone" type="number" class="pagecrm_block-form__input" value="Телефон" placeholder="Телефон" >
+            <textarea name="message" rows="5" cols="33" class="pagecrm_block-form__input pagecrm_block-form__textarea" placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM" ></textarea>
+            <select name="crm" class="pagecrm_block-form__input">
+                <option value="">Выберите систему</option>
+                <option value="amocrm">amoCRM</option>
+                <option value="bitrix">Битрикс 24</option>            
+              </select>
             <button class="pagecrm_block-form__button main__button">
                 оставить заявку
             </button>
@@ -156,7 +160,7 @@
 
 
 <div class="pagecrm_block">
-    
+
 </div>
 
 

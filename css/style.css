@@ -373,32 +373,88 @@ text-align: center;
 
 /* ---------- общие элементы -------------- */
 .main__button {
-
-
+    padding: 20px;
+    background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+box-shadow: 0px 0px 19px 9px rgba(162, 45, 247, 0.1);
+text-transform: uppercase;
+color: rgba(233, 222, 255, 1);
+cursor: pointer;
 }
 
 /* ---------------------------------------- */
 
 .pagecrm_block-form {
-padding: 44px 16px;
+    background: rgba(72, 5, 114, 0.49);
+    border: 2px solid;
+    border-image-source: linear-gradient(147.77deg, #9400FF 14.56%, rgba(198, 79, 135, 0.83) 86.63%);
+    box-shadow: 0px 0px 10px 0px rgba(150, 98, 255, 1);
+    padding: 44px 15px;
+    gap: 20px;
+    border-radius: 32px;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
 }
 
 .pagecrm_block-form-title {
+   
 
 }
 
 .pagecrm_block-form-title__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
 
 }
 
 .pagecrm_block-form-title__subtext {
+    text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+color: #FFFFFF;
 
 }
 
 .pagecrm_block-form__input {
+    height: 59px;
+    padding: 0 24px;
+    border-radius: 10px;       
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #ffffff;
+    outline: none;   
+    border: 5px solid transparent;
+    background: linear-gradient(#5f3794, #5f3794) padding-box, linear-gradient(147.77deg, #9400ff 14.56%,  rgba(198, 79, 135, 0.83)  86.63%) border-box;
+}
+
+.pagecrm_block-form__input::placeholder {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pagecrm_block-form__textarea {
+    padding: 15px 24px;
+    font-size: 12px;
+    font-weight: 400;    
+    text-align: left;
 
 }
 
 .pagecrm_block-form__button {
 
 }
+
