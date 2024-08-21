@@ -44,6 +44,7 @@ cursor: pointer;
     border: 1px solid transparent;   
     border-radius: 10px;
     background: linear-gradient(#441f69, #441f69) padding-box, linear-gradient(240.52deg, #58f6d1, rgba(116, 223, 221, 0.43) 28.48%, rgba(161, 180, 239, 0.54) 64.29%, rgba(202, 142, 255, 0.55) 96.31%) border-box;
+    max-width: max-content;
 }
 
 .pagecrm_block-items {
@@ -646,11 +647,11 @@ color: #FFFFFF;
 .pagecrm_block-price-card {
     border: 2px solid transparent;
     border-radius: 15px;
-background: linear-gradient(176.42deg,  #673c97, #1f193d) padding-box, linear-gradient(176.42deg, #B195FF -126.75%, #D795FF 97.05%) border-box;
-box-shadow: 0px 0px 20px 4px #D795FF;
-padding: 20px 12px;
-display: flex;
-flex-direction: column;
+    background: linear-gradient(176.42deg,  #673c97, #1f193d) padding-box, linear-gradient(176.42deg, #B195FF -126.75%, #D795FF 97.05%) border-box;
+    box-shadow: 0px 0px 20px 4px #D795FF;
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 
 }
@@ -666,13 +667,44 @@ flex-direction: column;
     background-color: #9E00FF26;
     border-radius: 10px;
     padding: 10px 16px 10px 10px;
-    
-    
+    align-items: center;
+     
 }
 .pagecrm_block-price-content__title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.88px;
+    text-align: left;
+    color: #ffffff;
 }
 .pagecrm_block-price-content__price {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .pagecrm_block-price-card__button {
+    padding: 20px 50px;
+    text-transform: uppercase;
+    align-self: center;
+    background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(240.52deg, #26f1f7, #3e31ae) border-box;
+    box-shadow: 0px 0px 25.48px 0px #A22DF71A;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }   
+
+.pagecrm_block-price-card__button::after {
+    content: url(../images/arrow_button.svg);
+    width: 15px;
+    height: 15px;
+}
+
+.pagecrm_block-items__list_lh-30 {
+    line-height: 30px;
+}
