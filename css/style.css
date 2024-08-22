@@ -245,12 +245,10 @@ box-shadow: 0px 0px 10px 0px rgba(215, 149, 255, 1);
 .pagecrm_slide-right-area {
     width: 48px;
     height: 94px;
-    top: 220px;
-    left: 312px;
-   position: relative;
+    top: 220px;    
+   position: fixed;
     border-radius: 15px 0px 0px 15px;
-    background: rgba(29, 1, 65, 0.3);
-    top: 103px;   
+    background: rgba(29, 1, 65, 0.3); 
     left: calc(100% - 48px);
     display: flex;
     flex-direction: column;
@@ -707,4 +705,54 @@ color: #FFFFFF;
 
 .pagecrm_block-items__list_lh-30 {
     line-height: 30px;
+}
+
+
+.pagecrm_block-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.pagecrm_block-feedback-title__text {    
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pagecrm_block-feedback-subtitle__text {
+    font-family: Play;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+ color: #ffffff;
+
+}
+
+.pagecrm_block-feedback-form__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    color: #ffffff;
+}
+.pagecrm_block-feedback-form__subtitle {
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #ffffff;
+
+}
+.pagecrm_block-form__input {
+}
+.pagecrm_block-form__button.main__button {
+}
+.pagecrm_block-title__text {
+}
+.pagecrm_block-subtitle__text {
 }

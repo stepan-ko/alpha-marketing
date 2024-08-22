@@ -144,10 +144,10 @@
                 <h2 class="pagecrm_block-form-title__text">Оставить заявку</h2>
                 <p class="pagecrm_block-form-title__subtext">Выберите систему для вашего бизнеса,  и мы свяжемся с Вами в течение 20 минут</p>
             </div>
-            <input name="name" type="text" class="pagecrm_block-form__input" placeholder="ФИО" >
-            <input name="phone" type="number" class="pagecrm_block-form__input" value="Телефон" placeholder="Телефон" >
-            <textarea name="message" rows="5" cols="33" class="pagecrm_block-form__input pagecrm_block-form__textarea" placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM" ></textarea>
-            <select name="crm" class="pagecrm_block-form__input">
+            <input name="name" type="text" class="pagecrm_block-form__input" placeholder="ФИО" autocomplete="off">
+            <input name="phone" type="number" class="pagecrm_block-form__input"  placeholder="Телефон" autocomplete="off">
+            <textarea name="message" rows="5" cols="33" class="pagecrm_block-form__input pagecrm_block-form__textarea" autocomplete="off" placeholder="Напишите что вас интересует, например: Покупка лицензии amoCRM" ></textarea>
+            <select name="crm" class="pagecrm_block-form__input" autocomplete="off">
                 <option value="">Выберите систему</option>
                 <option value="amocrm">amoCRM</option>
                 <option value="bitrix">Битрикс 24</option>            
@@ -280,6 +280,49 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="pagecrm_block">
+
+<div class="pagecrm_block-feedback">
+    <div class="pagecrm_block-feedback__header">
+        <div class="pagecrm_block-title">
+            <h2 class="pagecrm_block-feedback-title__text">Заявка на подбор и подключение CRM-системы </h2>
+        </div>
+        <div class="pagecrm_block-subtitle">
+            <h3 class="pagecrm_block-feedback-subtitle__text">Проведем аудит, подготовим решение для вашего бизнеса и рассчитаем стоимость </h3>
+        </div>
+    </div>
+
+    <form action="" class="pagecrm_block-feedback-form pagecrm_block-form">
+        
+
+        <h2 class="pagecrm_block-feedback-form__title">
+            Заполните форму
+        </h2>
+        <h3 class="pagecrm_block-feedback-form__subtitle">
+            Оставьте свои контактные данные,  мы свяжемся с Вами в течение 20 минут
+        </h3>
+       
+        <input name="name" type="text" class="pagecrm_block-form__input" placeholder="Имя" autocomplete="off" >
+        <input name="phone" type="number" class="pagecrm_block-form__input"  placeholder="Телефон" autocomplete="off">
+        <select name="crm" class="pagecrm_block-form__input" autocomplete="off">
+            <option value="">Выберите услугу</option>
+            <option value="amocrm">amoCRM</option>
+            <option value="bitrix">Битрикс 24</option>            
+        </select>
+        <button class="pagecrm_block-form__button main__button">
+            оставить заявку
+        </button>
+    </form>
+</div>
+    
+<div class="pagecrm_block-feedback">
+
+</div>
+
+
+
 </div>
 
 
